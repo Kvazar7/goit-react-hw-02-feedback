@@ -1,0 +1,16 @@
+.feedback_block {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feedback_block__result {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
