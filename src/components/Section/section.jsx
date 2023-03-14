@@ -5,7 +5,7 @@ const Section = ({ title, children }) => {
   return (
     
       <div className={css.feedback_block}>
-        <h2 h2 className={css.feedback_block__head}>{title}</h2>
+        <h2 className={css.feedback_block__head}>{title}</h2>
         {children}
       </div>
     
