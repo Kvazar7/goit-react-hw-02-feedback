@@ -11,7 +11,6 @@ const FeedbackCounter = ({ options, onLeaveFeedback }) => {
                         key={option}>
                         {option}
                 </button>
-
             ))}
         </div>
     )

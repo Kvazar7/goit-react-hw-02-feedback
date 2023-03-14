@@ -51,25 +51,3 @@ countPositiveFeedbackPercentage = () => Math.round(this.state.good / this.totalF
     );
   };
 }
-
-/* <>
-      <Section title="Please leave your feedback">
-        <FeedbackCounter
-          options={Object.keys(this.state)}
-          onLeaveFeedback={this.onFeedbackAccept}
-        />
-      </Section>
-      <Section title="Statistics">
-          {this.totalFeedback() === 0 ? (
-            <Notification message="There is no feedback"></Notification>
-          ) : (  
-        <Statistics
-          good={this.state.good}
-          neutral={this.state.neutral}
-          bad={this.state.bad}
-          total={this.totalFeedback()}
-          positivePercentage={this.countPositiveFeedbackPercentage()}
-        />
-      )}
-      </Section>
-    </> */
